@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container button {
+    margin-top: 10px;
+    width: 200px;
+}
+
+#capture {
+    padding: 0 10px;
+    max-width: 980px;
+    border: 1px solid black;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info input {
+    display: inline; 
+    width: 700px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.situacao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.situacao .tabela {
+    display: block;
+}
+
+.situacao input {
+    text-align: center;
+}
+
+.situacao input[type="text"] {
+    display: block;
+    border-style: double;
+    padding-bottom: 5px;
+}
+
+.situacao input[type="text"]:first-child {
+    display: block;
+}
+
+.situacao h4 {
+    text-align: center;
+}
+
+.situacao select {
+    display: block;
+    height: 25px;
+}
+
+.situacao .opcoes {
+    display: flex;
+    gap: 30px;
+}
+
+.opcoes p {
+    margin: 0;
+    margin-bottom: 7.5px;
+
+}
+
+.gestor {
+    margin-left: 20px;
+}
+
+#abonoGeral {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.assinatura {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.atencao {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+.atencao p:last-child {
+    margin-left: 84px;
+}
+
+.assinatura p {
+    font-size: 18px;
+}
+
+
+
